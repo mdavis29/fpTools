@@ -13,6 +13,7 @@ plotTsDenisities<-function(myTs, timeCut = c(2016), plotName =NULL ){
                   paste('Before and After', timeCut)), 
      col = 'blue',
      sub = plotName,
+     cex.main = .8,
      xaxt='n')
   abline(v = mean(before)+2*sd(before))
   abline(v = mean(before)-2*sd(before))
@@ -20,8 +21,8 @@ plotTsDenisities<-function(myTs, timeCut = c(2016), plotName =NULL ){
   abline(v = mean(after), col = 'darkorange')
   tt<-t.test(before, after)
   legend('topright',fill = c('blue', 'darkorange','white'), cex = .8,
-       legend = c(paste(paste('Mean Before', timeCut), round(mean(before),4)),
-                  paste(paste('After/During', timeCut), round(mean(after),4)),
+       legend = c(paste(paste('Mean Before', timeCut), round(mean(before),2), sep = ': '),
+                  paste(paste('After/During', timeCut), round(mean(after),2), sep = ': '),
                   paste('Pvalue',round(tt$p.value,4))))
   d<-ifelse(tt$p.value > 0.05, 
           'not a significant differnence',
