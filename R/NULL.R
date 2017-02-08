@@ -12,6 +12,7 @@
 #'    \item meanAdjustForecast mean adjusts a forecast based overlapping validation set
 #'    \item longFormPreformance forecast preformance on long for data
 #'    \item ts2lagMatrix create a time series matrix from a ts
+#'    \item plotTsDenisities plot denisty of a times series before and after a date
 #'   }
 #' @examples
 #'  FPtoCP(c(201201,20126)) #fiscal year starting July 1 st of each year

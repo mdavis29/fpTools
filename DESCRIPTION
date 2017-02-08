@@ -1,7 +1,7 @@
 Package: fpTools
 Type: Package
 Title: Fiscal Period Tools
-Version: 0.2.7
+Version: 0.2.8
 Author: Matthew Davis
 Maintainer: Matthew Davis <mdavis29@gmail.com>
 Description: tools for dealing time series data and integer calendar periods.
