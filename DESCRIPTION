@@ -7,6 +7,6 @@ Maintainer: Matthew Davis <mdavis29@gmail.com>
 Description: tools for dealing time series data and integer calendar periods.
 License: MIT
 LazyData: TRUE
-Depends: timeDate,forecast,graphics, lubridate
+Depends: timeDate,forecast,graphics, lubridate,graphics
 RoxygenNote: 5.0.1.9000
 NeedsCompilation: no

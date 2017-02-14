@@ -10,6 +10,8 @@ plotTsDenisities(myTs, timeCut = c(2016), plotName = NULL)
 \item{myTs}{a univariate time series object}
 
 \item{timeCut}{numeric date date to cut test before and after ie 2016.5}
+
+\item{plotName}{name of the plot to be put in the title}
 }
 \value{
 density plot of the data before and after the cut off
