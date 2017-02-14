@@ -1,9 +1,12 @@
 #' @title Build Time Series Lag Matrix
 #' @param myTs a univariate time series object
 #' @param nlag number of lags
+#' @param pastLags create foreward or past lags
 #' @return time series object where each column is a lag of the original data
 #' @author Matthew Davis
-#' @details This creates a ts matrix of lag columns from a ts object 
+#' @description This creates a ts matrix of lag columns from a ts object 
+#' @details can either use past lags or forward lags
+#' 
 #' @export
 ts2lagMatrix<-function(myTs, nlag = 1, pastLags = TRUE){
  output<-NULL

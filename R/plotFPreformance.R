@@ -3,13 +3,14 @@
 #' @param fcastData univariate ts with the forecasted data (must overlap trainData for preformance metric calcs)
 #' @param trainData univariate ts with the training data
 #' @param seriesName name ofthe time series
+#' @description plots a forecast and training data from time series objects 
 #' @return a plot of preformance from the time series
 #' @author Matthew Davis
 #' @details This is intended to plot and look and anualized time series forecast and  estimate preformance
 #' @export
-#'
 
-plotFPreformance<-function(fcastData, trainData, seriesName = '') {
+
+plotForecastPreformance<-function(fcastData, trainData, seriesName = '') {
     print('click to plot')
     readline()
   val<-window(trainData, start = start(fcastData), end = end(trainData))

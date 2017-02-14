@@ -15,7 +15,7 @@ The package provides:
    \item xtsTainTestSplitter takes a quantmod xts object returns a list with train and test sets
    \item growthMetric takes a ts and returns year over year growth metrics
    \item modelPreformance generic calucations of model preformance
-   \item plotFPreformance plot model preformance for time series data
+   \item plotForecastPreformance plot model preformance for time series data
    \item meanAdjustForecast mean adjusts a forecast based overlapping validation set
    \item longFormPreformance forecast preformance on long for data
    \item ts2lagMatrix create a time series matrix from a ts

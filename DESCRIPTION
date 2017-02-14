@@ -1,12 +1,12 @@
 Package: fpTools
 Type: Package
 Title: Fiscal Period Tools
-Version: 0.2.8
+Version: 0.2.9
 Author: Matthew Davis
 Maintainer: Matthew Davis <mdavis29@gmail.com>
 Description: tools for dealing time series data and integer calendar periods.
 License: MIT
 LazyData: TRUE
-Depends: timeDate,forecast,graphics, lubridate,graphics
+Depends: timeDate,forecast,graphics, lubridate,graphics,plyr
 RoxygenNote: 5.0.1.9000
 NeedsCompilation: no

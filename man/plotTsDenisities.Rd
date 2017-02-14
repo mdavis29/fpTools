@@ -16,6 +16,9 @@ plotTsDenisities(myTs, timeCut = c(2016), plotName = NULL)
 \value{
 density plot of the data before and after the cut off
 }
+\description{
+this function is used to plot densities before and after a certain date
+}
 \details{
 This creates a ts matrix of lag columns from a ts object
 }

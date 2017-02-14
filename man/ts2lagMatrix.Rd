@@ -10,12 +10,17 @@ ts2lagMatrix(myTs, nlag = 1, pastLags = TRUE)
 \item{myTs}{a univariate time series object}
 
 \item{nlag}{number of lags}
+
+\item{pastLags}{create foreward or past lags}
 }
 \value{
 time series object where each column is a lag of the original data
 }
-\details{
+\description{
 This creates a ts matrix of lag columns from a ts object
+}
+\details{
+can either use past lags or forward lags
 }
 \author{
 Matthew Davis
